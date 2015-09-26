@@ -104,7 +104,7 @@ form {
       svgGroup;
 
   // get the raw data tsv file
-  d3.tsv("InternetCellularGDP.txt", function(error, json) {
+  d3.tsv("internetCellularGDP.txt", function(error, json) {
 
     var nest = d3.nest()
         .key(function(d) { return d["Country Code"]; })
